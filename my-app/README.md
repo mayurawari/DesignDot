@@ -33,3 +33,27 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## 📦 Deployment on Vercel
+
+This application is ready to be deployed on **Vercel**.
+
+### Steps to Deploy:
+
+1.  **Push to GitHub/GitLab/Bitbucket**: Ensure your latest changes are pushed to a remote repository.
+2.  **Import to Vercel**:
+    -   Log in to [Vercel](https://vercel.com).
+    -   Click **"Add New Project"**.
+    -   Select your repository.
+    -   Vercel will automatically detect **Next.js** as the framework.
+3.  **Build Settings**:
+    -   **Build Command**: `next build` (Standard)
+    -   **Output Directory**: `.next` (Standard)
+    -   **Install Command**: `npm install`
+4.  **Environment Variables**: No specific environment variables are required for the base application.
+
+### Automatic Deployments
+Every push to the `main` branch will trigger a new deployment automatically.
+
+---
+*Created with ❤️ by Antigravity*
+
